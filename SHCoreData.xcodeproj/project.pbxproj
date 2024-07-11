@@ -14,6 +14,8 @@
 		E7C7AB7D2C3E87ED00807C2B /* SHCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E7C7AB7B2C3E87ED00807C2B /* SHCoreData.xcdatamodeld */; };
 		E7C7AB7F2C3E87F100807C2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7C7AB7E2C3E87F100807C2B /* Assets.xcassets */; };
 		E7C7AB822C3E87F100807C2B /* Base in Resources */ = {isa = PBXBuildFile; fileRef = E7C7AB812C3E87F100807C2B /* Base */; };
+		E7C7AB8B2C3E88B500807C2B /* PhoneBook+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C7AB892C3E88B500807C2B /* PhoneBook+CoreDataClass.swift */; };
+		E7C7AB8C2C3E88B500807C2B /* PhoneBook+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C7AB8A2C3E88B500807C2B /* PhoneBook+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		E7C7AB7E2C3E87F100807C2B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E7C7AB812C3E87F100807C2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E7C7AB832C3E87F100807C2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7C7AB892C3E88B500807C2B /* PhoneBook+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PhoneBook+CoreDataClass.swift"; sourceTree = "<group>"; };
+		E7C7AB8A2C3E88B500807C2B /* PhoneBook+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PhoneBook+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +46,8 @@
 		E7C7AB662C3E87ED00807C2B = {
 			isa = PBXGroup;
 			children = (
+				E7C7AB892C3E88B500807C2B /* PhoneBook+CoreDataClass.swift */,
+				E7C7AB8A2C3E88B500807C2B /* PhoneBook+CoreDataProperties.swift */,
 				E7C7AB712C3E87ED00807C2B /* SHCoreData */,
 				E7C7AB702C3E87ED00807C2B /* Products */,
 			);
@@ -144,6 +150,8 @@
 				E7C7AB772C3E87ED00807C2B /* ViewController.swift in Sources */,
 				E7C7AB7D2C3E87ED00807C2B /* SHCoreData.xcdatamodeld in Sources */,
 				E7C7AB732C3E87ED00807C2B /* AppDelegate.swift in Sources */,
+				E7C7AB8B2C3E88B500807C2B /* PhoneBook+CoreDataClass.swift in Sources */,
+				E7C7AB8C2C3E88B500807C2B /* PhoneBook+CoreDataProperties.swift in Sources */,
 				E7C7AB752C3E87ED00807C2B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
